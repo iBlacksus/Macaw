@@ -1,4 +1,8 @@
+import Foundation
+
+#if os(iOS)
 import UIKit
+#endif
 
 open class Gradient: Fill {
 
