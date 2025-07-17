@@ -133,7 +133,7 @@ open class SVGParser {
     }
 
     fileprivate func parse() throws -> Group {
-        let config = XMLHash.config { config in
+        let config = SWXMLHash.config { config in
             config.shouldProcessNamespaces = true
         }
         let parsedXml = config.parse(xmlString)

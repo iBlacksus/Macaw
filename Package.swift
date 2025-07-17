@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MacawWithGradient",
+    name: "Macaw",
     platforms: [
         .macOS(.v10_12),
         .iOS(.v9)
